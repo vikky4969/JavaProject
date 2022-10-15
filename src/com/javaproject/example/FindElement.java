@@ -20,6 +20,7 @@ public class FindElement {
 		driver.findElement(By.name("q")).sendKeys("cricket"+Keys.ENTER);
 		List<WebElement> cricketlist=driver.findElements(By.xpath("//*[contains(text(),'cricket')]"));
 		System.out.println(cricketlist.size());
+		System.out.println("updated");
 	}
 
 }
