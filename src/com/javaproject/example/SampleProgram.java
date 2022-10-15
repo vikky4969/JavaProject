@@ -12,6 +12,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\SATHISH\\eclipse-works
 	driver.get("https://www.google.com/");
 	Thread.sleep(3000);
 	driver.quit();
+
 	}
 
 }
