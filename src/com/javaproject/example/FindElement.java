@@ -21,6 +21,7 @@ public class FindElement {
 		List<WebElement> cricketlist=driver.findElements(By.xpath("//*[contains(text(),'cricket')]"));
 		System.out.println(cricketlist.size());
 		System.out.println("updated");
+		System.out.println("updated2");
 	}
 
 }
